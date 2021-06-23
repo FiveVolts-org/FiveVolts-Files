@@ -1,0 +1,54 @@
+body{
+    height:100% ;
+    
+}
+.limiter{
+    position: relative;
+}
+.container{
+    position: relative;
+    top: 3em;
+    border: 1px solid red;
+    width:100%;
+    padding: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    color: white;
+}
+h1, p, h3, h2 {
+    color: white;
+}
+.divTitulo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.itens{
+    background-color: #0a0a0a;
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    border-bottom: 60px solid #101010;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+.boxTabela{
+    position: relative;
+    width:100%;
+    border: 1px solid red ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+table .coluna1{
+    background-color: #101010;
+}
+table{
+    width: 100%;
+    border: 1px solid black;
+    
+    caption-side: center;
+}

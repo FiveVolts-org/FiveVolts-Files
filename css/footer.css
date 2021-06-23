@@ -1,0 +1,23 @@
+.footer{
+    position: relative;
+    background-color: black;
+    bottom: 0%;
+/*  border: 1px solid red;*/ 
+    width: 100vw;
+    height: 200px;
+    padding: 1%;
+}
+#asideBottom{
+    
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+}
+.footer a{
+    color: #ffffff;
+    font-size: 1.3em;
+}
+
+.footerOptions{
+    border-bottom: 10px solid transparent;
+}
