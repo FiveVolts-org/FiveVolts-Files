@@ -17,12 +17,13 @@ section.noticias{
     display:flex;
     align-items: center;
 }
+
 .slides input{
     display: none;
 }
 .slide{
     width: 20%;
-    transition: 2s
+    transition: 1.5s
 }
 .slide img{
     width: 1000px;
@@ -60,7 +61,7 @@ section.noticias{
 }
 .btn-carousel{
     background-color: rgba(0,0,0,0);
-    height: 55px;
+    height: 60px;
     padding: 8px;
     border: 7px solid transparent;
     border-radius: 50%;
