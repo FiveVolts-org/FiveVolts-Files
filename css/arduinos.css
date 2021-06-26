@@ -25,6 +25,7 @@ h1, p, h3, h2 {
     width: 400px;
     height: 300px;
     border-radius: 7px;
+    border-bottom: 60px solid #101010;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

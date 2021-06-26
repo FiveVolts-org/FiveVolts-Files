@@ -42,4 +42,4 @@ setInterval( function(){
     }
     document.getElementById('radio' + counter).checked = true;
     console.log("next "+counter);
-}, 3000) 
+}, 10000) 
