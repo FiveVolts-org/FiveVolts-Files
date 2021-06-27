@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .cards {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.card {
+  position: absolute;
+  width: 322px;
+  height: 343px;
+  left: 340px;
+  top: 239px;
+
+  background: #303030;
+  border-radius: 20px;
+  border: 2px solid #5E17EB;
+}
+
+.card2 {
+  position: absolute;
+  width: 322px;
+  height: 343px;
+  left: 778px;
+  top: 239px;
+
+  background: #303030;
+  border-radius: 20px;
+  border: 2px solid #5E17EB;
+}
+
+.user-image img {
+  border: 5px solid #4B4B4B;
+  border-radius: 148px;
+  
+
+
+  margin-right: 50%;
+  margin-left: 23%;
+  margin-top: 1.7rem;
+  margin-bottom: 1.35rem;
+
+  text-align: center;
+}
+
+.name, .name-caua p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 50px;
+  text-align: center;
+
+  color: #FFFFFF;   
+}
+
+.socialc, .face__modify {
+  text-decoration: none;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+.social, .face_modify {
+  text-decoration: none;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
