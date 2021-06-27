@@ -1,8 +1,6 @@
 var counter = 1
 const sldButtons = document.querySelectorAll('.btn-carousel')
 
- 
-
 
 sldButtons.forEach(button => {
     button.addEventListener('click', event => {
@@ -34,8 +32,9 @@ sldButtons.forEach(button => {
         }
     });
 })
-setInterval( function(){
-    
+
+
+setInterval( function(){ 
     counter++;
     if(counter > 4){
         counter = 1;
