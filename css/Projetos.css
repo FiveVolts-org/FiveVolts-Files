@@ -1,0 +1,25 @@
+div .container{
+    color: white;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.container h2 {
+    width: 100%;
+}
+.projetos{
+    position: relative;
+    top: 100px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+}
+.projetos div{
+    padding: 20px;
+}
+.imagensProjetos{
+    width: 700px;
+}

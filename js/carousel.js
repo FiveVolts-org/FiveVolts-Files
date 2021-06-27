@@ -41,4 +41,4 @@ setInterval( function(){
     }
     document.getElementById('radio' + counter).checked = true;
     console.log("next "+counter);
-}, 10000) 
+}, 15000) 

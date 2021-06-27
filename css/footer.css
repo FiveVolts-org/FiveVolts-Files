@@ -1,14 +1,12 @@
 .footer{
     position: relative;
     background-color: black;
-    bottom: 0px;
-/*  border: 1px solid red;*/ 
+    top: 5%;
     width: 100vw;
     height: 200px;
     padding: 1%;
 }
 #asideBottom{
-    
     height: 100%;
     display: flex;
     flex-flow: column wrap;

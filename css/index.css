@@ -1,6 +1,6 @@
 section.noticias{
     position: relative;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -158,4 +158,101 @@ section.noticias{
 }
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background: #0070a3 ;
+}
+
+section.sobre{
+    position: relative;
+    top: 50px;
+    width: 100%;
+    height: 800px;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 40px;
+}
+.ambasInfos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.infosPessoais{
+    width: 45%;
+    height: 600px;
+    background: #262626;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+#ftDeid{
+    width: 400px;
+}
+.img-pessoal{
+    width:32%;
+}
+.icones{
+    width: 100px;
+}
+.boxNomes{
+    border-left: 60px solid transparent;
+}
+.dadospessoaisC, .dadospessoaisD{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.dadospessoaisC a{
+    color: white;
+    text-decoration: none;
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 1s;
+    text-decoration: none;
+}
+.dadospessoaisD a{
+    color: white;
+    text-decoration: none;
+    width: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 1s;
+    text-decoration: none;
+}
+.boxArobas{
+    display: none;
+}
+
+.dadospessoaisC a#instagram{
+    width: 250px
+}
+
+.dadospessoaisC a:hover > .boxArobas{
+    display: flex;
+    animation: efeito 1.5s ease;
+}
+.dadospessoaisD a:hover > .boxArobas{
+    display: flex;
+    animation: efeito 1.5s ease;
+}
+
+
+
+@keyframes efeito{
+    from {
+        transform: translateX(-25px) ;
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
 }

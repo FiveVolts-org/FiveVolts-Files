@@ -10,6 +10,7 @@ html{
     justify-content: center;
 }
 body{
+    position: relative;
     background-color: #101010;
     width: 100vw;
     font-family: 'Roboto', sans-serif;
